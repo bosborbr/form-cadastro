@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<form action="">
+
+    <div>
+        <label for="nome_usuario">Nome completo:</label>
+        <input type="text" id="nome_usuario" name="nome_usuario" required>
+
+        
+
+        <label for="email_usuario">E-mail</label>
+        <input type="text" id="email_usuario" name="email_usuario" required>
+
+        
+
+        <label for="telefone">Telefone (opcional):</label>
+        <input type="number" id="telefone" name="telefone">
+
+        
+
+    
+        <label for="Logradouro">Endereço:</label>
+        <input type="text" id="Logradouro" name="Logradouro" required>
+
+        <label for="numero">Numero:</label>
+        <input type="text" id="numero" name="numero" required>
+
+        <label for="bairro">bairro(opcional):</label>
+        <input type="text" id="bairro" name="bairro" >
+
+        <label for="cid_est">Cidade e estado:</label>
+        <input type="text" id="cid_est" name="cid_est" required>
+
+        <label for="CEP">CEP:</label>
+        <input type="text" id="CEP" name="CEP" required>
+
+
+    </div>
+
+    
+
+    <label for="estado_civil">Estado civil</label>
+    <select name="estado_civil" id="estado_civil">
+        <option value="0">--- selecione ---</option>
+        <option value="1">solteiro(a)</option>
+        <option value="2">casado(a)</option>
+        <option value="3">divorciado(a)</option>
+        <option value="4">viúvo(a)</option>
+        <option value="5">separado(a)</option>
+    </select>
+||
+    <label>Preferencia de contato:</label>
+    <input type="radio" id="escolha_tel" name="esc">
+    <label for="escolha_tel">telefone</label>
+    <input type="radio" id="escolha_email" name="esc">
+    <label for="escolha_email">E-mail</label>
+||
+    <input type="checkbox" id="termos_de_uso" name="termos_de_uso">
+    <label for="termos_de_uso">Li e concordo com os termos de uso.</label>
+||
+    <button type="submit">enviar</button>
+    <button type="reset">resetar</button>
+
+</form>
+
+</body>
+</html>

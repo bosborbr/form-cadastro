@@ -1,0 +1,8 @@
+div{
+    display: flex;
+    flex-flow: column;
+}
+input:hover{
+    color: cornsilk;
+    background-color: cornflowerblue;
+}
